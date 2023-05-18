@@ -1,0 +1,24 @@
+<!--pages/myAddress/myAddress.wxml-->
+<view wx:if="{{listLength > 0}}">
+  <view  class="order-box" wx:for="{{orderlist}}" bindtap="toOrderDetail" >
+      <view wx:for="{{item.catlist}}" wx:key="">        
+         <view class="flex-display padding-15">
+        </view>
+      </view>
+
+
+
+<view class="order-detail">
+  <view class="order-left">
+      <text class="order-date">我的配送地址：</text>
+  </view>
+  <view class="order-right">
+      <text class="order-price">{{item.address}}</text>              
+  </view>
+</view>
+
+</view>
+</view>
+
+
+

@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="login_pic" src="../../image/logo60.png" />
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <navigator url="/pages/login/login"> 去登录</navigator>
+</view>

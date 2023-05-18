@@ -1,0 +1,18 @@
+/* pages/myAddress/myAddress.wxss */
+page {
+  background: #f2f2f2;
+}
+.order-box .order-detail{
+  display:flex;
+  justify-content: space-between;
+  font-size:30rpx;
+  margin:5rpx 0;
+  margin-left: 50rpx;
+  padding:10rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.order-box .order-detail .order-right .order-price{
+  padding-right:15rpx;
+}
+

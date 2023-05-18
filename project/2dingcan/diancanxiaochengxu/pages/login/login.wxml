@@ -1,0 +1,16 @@
+<view class="logo_box">
+  <image class="logo" src='../../image/touxiang.png'></image>
+</view>
+<form bindsubmit="reg">
+  <view class='username'>
+    <input type="text" name="username" placeholder-style="color: #ccc" placeholder="手机/邮箱/用户名" bindinput="userNameInput"/>
+  </view>
+  <view class='username' style='margin-top:40rpx;'>
+    <input password name="password" placeholder-style="color: #ccc" placeholder="密码" bindinput="passWdInput"/>
+  </view>
+<view class='login-fail'>{{infoMess}}</view>
+  <view class="btn">
+    <button bindtap="loginBtnClick" style='margin-bottom:20rpx;' type="warn" form-type="submit">登录</button>
+  </view>
+  
+</form>

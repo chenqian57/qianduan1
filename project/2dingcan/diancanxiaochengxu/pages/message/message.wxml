@@ -1,0 +1,18 @@
+<view class="head">
+  头像
+   <image src='../../image/箭头.png' class='jiantou'></image> 
+  <image src='../../image/touxiang.png' class='head_pic'></image>
+</view>
+<view class='div'>
+  用户名
+  <image style="margin-top:25rpx" src='../../image/箭头.png' class='jiantou'></image> 
+  <view class='div_content'>{{username}}</view>
+</view>
+<view style="margin:20rpx 40rpx;font-size:22rpx;color:#A9A9A9">账号绑定</view>
+<view class='div'>
+  手机号
+  <image style="margin-top:25rpx" src='../../image/箭头.png' class='jiantou'></image> 
+  <view class='div_content'>155*****977</view>
+</view>
+
+<button style='height:100rpx;line-height:100rpx;margin-top:60rpx;background-color:#fff;color:red;font-size:30rpx;padding: 30rpx auto;' bindtap="loginBtnClick"  type="primary" form-type="submit">退出登录</button>

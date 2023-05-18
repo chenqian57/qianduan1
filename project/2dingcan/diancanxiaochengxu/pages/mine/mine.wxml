@@ -1,0 +1,14 @@
+<view class="page">
+  <!-- <navigator url="../../pages/login/login"> -->
+    <view class="login" bindtap="check">
+      <image class="login_pic" src="../../image/touxiang.png" />
+      <view class="login_content color_white">{{username}}</view>
+    </view>
+ 
+  <view class='list' bindtap='myAddress'>
+    <image style="float:left;width:50rpx;height:50rpx;margin-top:20rpx;margin-right:15rpx;" src='../../image/dizhi.png'></image>
+    我的地址
+  <image style="float:right;width:50rpx;height:50rpx;margin-top:20rpx;margin-right:20rpx;" src='../../image/箭头.png'></image>
+  </view>
+ 
+</view>
